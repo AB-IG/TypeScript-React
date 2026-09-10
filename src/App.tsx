@@ -6,7 +6,7 @@ import Person from "./components/Person";
 function App() {
   return (
     <>
-      <Event_Handling />
+      <Data name="John Doe" age={30} isMarried={true} />
     </>
   );
 }

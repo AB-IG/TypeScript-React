@@ -1,8 +1,4 @@
-export interface data {
-  name: string;
-  age: number;
-  isMarried: boolean;
-}
+import type { data } from "../types/PersonalData";
 const Person = ({ name, age, isMarried }: data) => {
   return (
     <div>

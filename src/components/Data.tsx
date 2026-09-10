@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { data } from "./Person";
+import type { data } from "../types/PersonalData";
 
 const Data = ({ name, age, isMarried }: data) => {
   const [showInfo, setShowInfo] = useState<boolean>(false);
